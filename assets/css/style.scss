@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Rosario');
+
+$main-font: 'Rosario', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$tertiary-font: 'Montserrat', sans-serif;
+
 @charset "UTF-8";
 /*
 Theme Name: United Surgical Associates
@@ -79,11 +85,11 @@ blockquote {
     font-size: 28px;
     text-align: left;
     font-weight: normal;
-}
 
-blockquote span {
-    font-style: italic;
-    font-weight: normal;
+    span {
+        font-style: italic;
+        font-weight: normal;
+    }
 }
 
 blockquote p {
@@ -104,24 +110,6 @@ hr {
     height: 1px;
     background: #bdbdbd;
     margin: 3em 0;
-}
-
-hr.style-eight {
-    font-family: 'Open Sans';
-    padding: 0;
-    border: none;
-    color: #072859;
-    text-align: center;
-}
-
-hr.style-eight::after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
 }
 
 a img {
@@ -304,7 +292,7 @@ body {
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-weight: 400;
     word-wrap: break-word;
-    font-family: 'Quicksand', serif;
+    font-family: $main-font;
     text-transform: none;
     margin: 0.5em 0;
 }
@@ -645,7 +633,7 @@ a.button:after {
 
 #contact-bar p, #contact-bar p a {
     color: #7d8589;
-    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-family: $main-font;
     font-weight: 300;
 }
 
@@ -790,7 +778,7 @@ a.button:after {
 .sf-menu a {
     background: none;
     color: #7d8589;
-    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-family: $main-font;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
@@ -1174,7 +1162,7 @@ section.home-content .container, section.home-content .container-fluid {
 }
 
 section.home-content #primary h1, .featured-title {
-    font-family: 'Quicksand', serif;
+    font-family: $main-font;
     font-size: 60px;
     font-weight: 300;
     color: #7d8589;
@@ -1375,7 +1363,7 @@ section.contact .contact-info p a:hover, section.contact .contact-info p a.hover
 }
 
 section.contact .contact-info p, section.contact .contact-info p a {
-    font-family: 'Quicksand', serif;
+    font-family: $main-font;
     font-weight: 300;
     font-size: 30px;
     text-transform: uppercase;
@@ -1417,7 +1405,7 @@ section.contact .aligner {
 }
 
 section.contact a.hover-box .box-title h4 {
-    font-family: 'Quicksand', serif;
+    font-family: $main-font;
     font-size: 36px;
     text-shadow: 0px 0px 5px #000;
     text-transform: uppercase;
@@ -1447,7 +1435,7 @@ section.contact img.map {
 }
 
 section.contact .contact-info address {
-    font-family: 'Quicksand', Times, serif;
+    font-family: $main-font;
     color: #7d8589;
     font-size: 18px;
     line-height: 1.6;
@@ -2322,7 +2310,7 @@ header .social-icons li a:hover {
 }
 
 .entry-title {
-    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-family: $main-font;
     color: #0C739E;
     text-transform: uppercase;
     font-size: 60px;
@@ -2963,7 +2951,7 @@ div.wpcf7-validation-errors {
 }
 
 .slider .boxed .procedure-menu {
-    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-family: $main-font;
     display: none;
     position: absolute;
 }
@@ -2982,7 +2970,7 @@ div.wpcf7-validation-errors {
 }
 
 .slider .boxed h3, .slider .boxed h4 {
-    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-family: $main-font;
 }
 
 .slider .boxed h3 {
@@ -3021,7 +3009,7 @@ div.wpcf7-validation-errors {
 }
 
 .procedure-menu .featured-menu a {
-    font-family: 'Quicksand', Helvetica, sans-serif;
+    font-family: $main-font;
     color: #7d8589;
     font-size: 18px;
     text-transform: uppercase;

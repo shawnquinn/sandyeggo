@@ -1,4 +1,4 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Rosario");html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
 :focus{outline:0}
 html{min-width:10px;height:100%;-webkit-text-size-adjust:100%;-webkit-appearance:none}
 body{line-height:1}
@@ -15,8 +15,6 @@ blockquote p{margin:10px 0 !important}
 em,i{font-style:italic}
 hr{border-width:0}
 hr{border:0;clear:both;height:1px;background:#bdbdbd;margin:3em 0}
-hr.style-eight{font-family:'Open Sans';padding:0;border:0;color:#072859;text-align:center}
-hr.style-eight::after{content:"§";display:inline-block;position:relative;top:-0.7em;font-size:1.5em;padding:0 .25em;background:white}
 a img{border:0}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 a{text-decoration:underline}
@@ -48,7 +46,7 @@ body{background-color:#fff;background-attachment:scroll;text-align:left;color:#6
 .icon-youtube:before{content:"\79"}
 .icon-pinterest:before{content:"\64"}
 .icon-tumblr:before{content:"\77"}
-h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:400;word-wrap:break-word;font-family:'Quicksand',serif;text-transform:none;margin:.5em 0}
+h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:400;word-wrap:break-word;font-family:"Rosario",sans-serif;text-transform:none;margin:.5em 0}
 h1,h2,h3,h4,h5,h6{color:#5f6369;text-transform:uppercase}
 #content h1,#content h2,#content h3{border-bottom:0}
 h1{font-size:2.625em}
@@ -96,7 +94,7 @@ a.button:after{content:''}
 .float-box .col{border-left:1px solid #fff}
 #header{background:transparent;position:relative;z-index:9999}
 #header .container-fluid{background:#fff}
-#contact-bar p,#contact-bar p a{color:#7d8589;font-family:'Quicksand',Helvetica,sans-serif;font-weight:300}
+#contact-bar p,#contact-bar p a{color:#7d8589;font-family:"Rosario",sans-serif;font-weight:300}
 #contact-bar p a:hover{color:#d3dfb8}
 #contact-bar p a{font-size:24px}
 #social,#main-nav{padding:1rem 0}
@@ -118,7 +116,7 @@ a.button:after{content:''}
 .sticky-wrapper{background:transparent;position:fixed;width:100%;top:0}
 .stuck{background:#fff;position:relative;width:100%;height:100%;z-index:999999}
 .sticky.scrolled{box-shadow:0 2px 5px rgba(0,0,0,0.27);-moz-box-shadow:0 2px 5px rgba(0,0,0,0.27);-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.27)}
-.sf-menu a{background:0;color:#7d8589;font-family:'Quicksand',Helvetica,sans-serif;font-weight:400;font-size:16px;text-transform:uppercase;display:block;line-height:50px;position:relative;padding:0;text-decoration:none;zoom:1;margin:0 1.25rem;height:50px}
+.sf-menu a{background:0;color:#7d8589;font-family:"Rosario",sans-serif;font-weight:400;font-size:16px;text-transform:uppercase;display:block;line-height:50px;position:relative;padding:0;text-decoration:none;zoom:1;margin:0 1.25rem;height:50px}
 .sf-menu a:hover{color:#333;background-color:transparent;text-decoration:none;border-bottom:1px solid #d3dfb8}
 .hover{color:#333 !important;background-color:transparent !important;text-decoration:none;border-bottom:1px solid #d3dfb8}
 #access #searchform{float:right;width:225px;padding:5px 10px}
@@ -176,7 +174,7 @@ a.button:after{content:''}
 #primary a:hover img{opacity:.8}
 section.home-content{background:#fff;background-size:cover;padding:2rem 0;position:relative}
 section.home-content .container,section.home-content .container-fluid{position:relative;z-index:3}
-section.home-content #primary h1,.featured-title{font-family:'Quicksand',serif;font-size:60px;font-weight:300;color:#7d8589;line-height:1.25;display:block;padding-bottom:0 0 1rem 0;margin:0 auto 1rem auto;position:relative;text-align:left;text-transform:uppercase;letter-spacing:0}
+section.home-content #primary h1,.featured-title{font-family:"Rosario",sans-serif;font-size:60px;font-weight:300;color:#7d8589;line-height:1.25;display:block;padding-bottom:0 0 1rem 0;margin:0 auto 1rem auto;position:relative;text-align:left;text-transform:uppercase;letter-spacing:0}
 section.home-content #primary h1 span,.featured-title span{font-size:30px;display:block;text-transform:none;border-top:1px solid #d3dfb8;padding-top:1rem;margin-top:1rem;text-transform:uppercase}
 section.home-content #primary h2 span{display:block}
 section.home-content #primary p,.home section p{color:#7d8589;line-height:1.6}
@@ -203,7 +201,7 @@ section.contact a.hover-box,section.contact a.hover-box .box-title,section.conta
 section.contact .contact-info{background:#ddebbd url(img/dr-q-big.png) no-repeat center center;background-size:cover;position:relative;width:100%;padding:20% 1rem;margin:0}
 section.contact .contact-info h3,section.contact .contact-info p a{font-size:60px;color:#7d8589;font-weight:300;margin:0;padding:0}
 section.contact .contact-info p a:hover,section.contact .contact-info p a.hovered{color:#000}
-section.contact .contact-info p,section.contact .contact-info p a{font-family:'Quicksand',serif;font-weight:300;font-size:30px;text-transform:uppercase}
+section.contact .contact-info p,section.contact .contact-info p a{font-family:"Rosario",sans-serif;font-weight:300;font-size:30px;text-transform:uppercase}
 section.contact .location-img{position:relative}
 section.contact a.hover-box .box-title{background:rgba(51,51,51,0.55);position:absolute;width:100%;height:100%;z-index:3;opacity:0}
 section.contact a.hover-box:hover .box-title,section.contact a.hover-box.hovered .box-title{opacity:1}
@@ -211,11 +209,11 @@ section.contact a.hover-box .map-img{background:#ddebbd;opacity:1}
 section.contact a.hover-box:hover .map-img img,section.contact a.hover-box.hovered .map-img img{opacity:.8}
 section.contact a.hover-box .box-title h4.l-space{letter-spacing:5px}
 section.contact .aligner{position:relative;height:100%}
-section.contact a.hover-box .box-title h4{font-family:'Quicksand',serif;font-size:36px;text-shadow:0 0 5px #000;text-transform:uppercase;letter-spacing:2px;color:#fff;text-align:center;margin:0;padding:0}
+section.contact a.hover-box .box-title h4{font-family:"Rosario",sans-serif;font-size:36px;text-shadow:0 0 5px #000;text-transform:uppercase;letter-spacing:2px;color:#fff;text-align:center;margin:0;padding:0}
 section.contact a.hover-box .box-title h4::after{content:'';background:#ddebbd;width:0;height:1px;display:block;margin:1rem auto}
 section.contact a.hover-box:hover .box-title h4::after,section.contact a.hover-box.hovered .box-title h4::after{width:100px}
 section.contact img.map{width:100%;height:auto}
-section.contact .contact-info address{font-family:'Quicksand',Times,serif;color:#7d8589;font-size:18px;line-height:1.6;margin-top:2rem}
+section.contact .contact-info address{font-family:"Rosario",sans-serif;color:#7d8589;font-size:18px;line-height:1.6;margin-top:2rem}
 section.contact a.tel{display:block}
 section.contact a.tel:hover{text-decoration:underline}
 section.contact .highlight a{font-weight:700;font-size:24px}
@@ -347,7 +345,7 @@ header .social-icons li a:hover{background:#b6c988;color:#fff;border:1px solid #
 .entry-title{padding:0 0 .5em 0;margin:0 0 .5em 0}
 .entry-content{padding:0 0 35px 0}
 .entry-content p{margin:0 0 1.5em}
-.entry-title{font-family:'Quicksand',Helvetica,sans-serif;color:#0c739e;text-transform:uppercase;font-size:60px;line-height:1;text-align:center;width:100%;margin:0;padding:0}
+.entry-title{font-family:"Rosario",sans-serif;color:#0c739e;text-transform:uppercase;font-size:60px;line-height:1;text-align:center;width:100%;margin:0;padding:0}
 #nav-single{padding:0 0 30px}
 #nav-single .nav-previous{float:left}
 #nav-single .nav-next{float:right}
@@ -444,15 +442,15 @@ div.wpcf7-validation-errors{border:2px solid #f7e700;color:red;background:white;
 .home .slider li{background-position:center top;background-size:cover}
 .home .slider .boxed{background:transparent;position:absolute;width:100%;height:100%;top:0;z-index:999}
 .home .slider .boxed .container,.home .slider .boxed .container .row,.home .slider .boxed .container-fluid,.home .slider .boxed .container-fluid .row{height:100%;position:relative}
-.slider .boxed .procedure-menu{font-family:'Quicksand',Helvetica,sans-serif;display:none;position:absolute}
+.slider .boxed .procedure-menu{font-family:"Rosario",sans-serif;display:none;position:absolute}
 .slider .boxed .columned{height:100%}
 .slider .boxed .procedure-menu{background:rgba(255,255,255,0.8);width:100%;height:100%;position:relative;text-align:center;padding-top:8rem}
-.slider .boxed h3,.slider .boxed h4{font-family:'Quicksand',Helvetica,sans-serif}
+.slider .boxed h3,.slider .boxed h4{font-family:"Rosario",sans-serif}
 .slider .boxed h3{font-size:36px;color:#fff;position:absolute;top:67%;left:0;right:0;margin:0 auto;text-align:center;letter-spacing:2px;text-shadow:0 0 5px #000}
 .slider .boxed h4{font-size:30px;font-weight:300;color:#7d8589;margin:0;padding:0}
 .slider .boxed h4::after{content:'';display:block;position:relative;width:30px;margin:1rem auto;background:#b6c988;height:1px}
 .procedure-menu .featured-menu li{margin:1.5rem 0}
-.procedure-menu .featured-menu a{font-family:'Quicksand',Helvetica,sans-serif;color:#7d8589;font-size:18px;text-transform:uppercase}
+.procedure-menu .featured-menu a{font-family:"Rosario",sans-serif;color:#7d8589;font-size:18px;text-transform:uppercase}
 .procedure-menu .featured-menu a:hover{color:#b6c988}
 .bg-container{display:block;background:#fff center center;height:auto;background-size:cover;position:relative;width:100%;margin-top:175px;z-index:0}
 .bg-overlay{background:rgba(58,68,68,0.6);position:relative;height:100%;width:100%}
