@@ -28,59 +28,26 @@ $db = get_option( 'lumos_theme_options' );
 $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['home_subheadline'] ) && empty( $lumos_options['home_content_area'] ) ) ? false : true;
 ?>
 <section class="slider">
-  
+
   <div class="boxed">
-	<div class="container hidden-md-up">
-		<div class="row align-items-center">
-	  	<div class="col-12">
-		  	<img class="mx-auto d-block img-fluid px-3" src="<?php echo get_template_directory_uri(); ?>/img/logo-sm.png" alt="Dr. Q Plastic Surgery" />
-	  	</div><!-- col -->
-	  </div><!-- row -->
-	</div><!-- .container -->
     <div class="container-fluid hidden-md-down">
       <div class="row align-items-center">
-        <div class="col-lg-2 offset-lg-1 columned">
-          <h3>Face</h3>
-          <nav class="procedure-menu">
-            <h4>Face</h4>
-            <?php wp_nav_menu(array( 'theme_location' => 'face-nav','menu_class' => 'featured-menu')); ?>
-          </nav>
-        </div>
-        <!-- col -->
-
-        <div class="col-lg-2 columned">
-          <h3>Breast</h3>
-          <nav class="procedure-menu">
-            <h4>Breast</h4>
-            <?php wp_nav_menu(array( 'theme_location' => 'breast-nav','menu_class' => 'featured-menu')); ?>
-          </nav>
-        </div>
-        <!-- col -->
-
-        <div class="col-lg-2 columned">
-          <h3>Body</h3>
-          <nav class="procedure-menu">
-            <h4>Body</h4>
-            <?php wp_nav_menu(array( 'theme_location' => 'body-nav','menu_class' => 'featured-menu')); ?>
-          </nav>
-        </div>
-        <!-- col -->
-
-        <div class="col-lg-2 columned">
-          <h3>Skin</h3>
-          <nav class="procedure-menu">
-            <h4>Skin</h4>
-            <?php wp_nav_menu(array( 'theme_location' => 'skin-nav','menu_class' => 'featured-menu')); ?>
-          </nav>
-        </div>
-        <!-- col -->
-
-        <div class="col-lg-2 columned">
-          <h3>Men</h3>
-          <nav class="procedure-menu">
-            <h4>Men</h4>
-            <?php wp_nav_menu(array( 'theme_location' => 'men-nav','menu_class' => 'featured-menu')); ?>
-          </nav>
+        <div class="col-md-4">
+          <div id="logo" >
+				      <h1>
+				        <a href="<?php echo home_url('/'); ?>">
+				          <img class="img-fluid d-block mx-auto" src="<?php header_image(); ?>" width="<?php if (function_exists('get_custom_header')) {
+                      echo get_custom_header() -> width;
+                  } else {
+                      echo HEADER_IMAGE_WIDTH;
+                  } ?>" height="<?php if (function_exists('get_custom_header')) {
+                      echo get_custom_header() -> height;
+                  } else {
+                      echo HEADER_IMAGE_HEIGHT;
+                  } ?>" alt="<?php bloginfo('name'); ?>" />
+				        </a>
+				      </h1>
+				    </div><!-- end of #logo -->
         </div>
         <!-- col -->
       </div>
@@ -89,13 +56,14 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
     <!-- container -->
   </div>
   <!-- boxed -->
+
   <ul class="bx-slider">
     <li id="one">
     </li>
-    
+
     <li id="two">
     </li>
-    
+
     <li id="three">
     </li>
   </ul>
@@ -141,12 +109,12 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 
 <section class="meet">
 	<div class="container">
-		
+
 		<div class="row align-items-center">
 			<div class="col-lg-5">
 				<img class="lime-border pb-5 img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/dr-q.jpg" alt="Dr. Q Plastic Surgery" />
 			</div><!-- col -->
-			
+
 			<div class="col-lg-6 offset-lg-1">
 				<h1 class="featured-title">Meet Dr Q <span>Suzanne M. Quardt, M.D.</span></h1>
 				<p>Dr Q ™ performs all aspects of Plastic Surgery including cosmetic surgery of the face and body, as well as challenging cases including reconstructions after breast, skin and other cancers, trauma, and other medical conditions.  Dr Q has a beautiful, state-of-the-art Cosmetic Surgery Center that also hosts her own Dr Q Medical Spa where she offers the latest and greatest in Non-Surgical technologies for procedures such as skin-tightening, fat-reduction, advanced skin-care including Hydrafacials, medical peels, laser resurfacing, sublative radiofrequency technology, microneedling and only the best, most effective and advanced Cosmeceutical skin-care lines.  Your treatments are performed in a luxuriously comfortable and serene, spa setting!  Her practice has expanded so rapidly that she is now happy to announce a new location with a private, accredited surgery center in Beverly Hills, California as well, to help serve her many patients that travel quite far to see her!</p>
@@ -172,7 +140,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 					</div>
 				</a>
 			</div><!-- col -->
-			
+
 			<div class="cta col-sm-4">
 				<a href="<?php echo home_url('/specials/'); ?>">
 					<div class="box">
@@ -181,7 +149,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 					</div>
 				</a>
 			</div><!-- col -->
-			
+
 			<div class="cta col-sm-4">
 				<a href="<?php echo home_url('/video-gallery/'); ?>">
 					<div class="box">
@@ -204,7 +172,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 				<div class="bx-review">
 					<div class="quote">
 						<div class="row align-items-center">
-							<div class="col-md-5">							
+							<div class="col-md-5">
 								<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac enim scelerisque, congue nisi sit amet, posuere diam. Pellentesque fermentum purus in lorem lobortis laoreet. Donec maximus velit vel dapibus bibendum. Integer facilisis mauris facilisis ornare facilisis. Nunc ut ligula ut dolor porttitor consequat eget eu mi...” <span>Jane Doe, Rancho Mirage, CA</span></blockquote>
 							</div><!-- col -->
 							<div class="col-md-6 offset-md-1 hidden-sm-down">
@@ -212,10 +180,10 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 							</div><!-- col -->
 						</div><!-- row -->
 					</div><!-- quote -->
-					
+
 					<div class="quote">
 						<div class="row align-items-center">
-							<div class="col-md-5">							
+							<div class="col-md-5">
 								<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac enim scelerisque, congue nisi sit amet, posuere diam. Pellentesque fermentum purus in lorem lobortis laoreet. Donec maximus velit vel dapibus bibendum. Integer facilisis mauris facilisis ornare facilisis. Nunc ut ligula ut dolor porttitor consequat eget eu mi...” <span>Joanna Smith, Palm Desert, CA</span></blockquote>
 							</div><!-- col -->
 							<div class="col-md-6 offset-md-1 hidden-sm-down">
@@ -223,10 +191,10 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 							</div><!-- col -->
 						</div><!-- row -->
 					</div><!-- quote -->
-					
+
 					<div class="quote">
 						<div class="row align-items-center">
-							<div class="col-md-5">							
+							<div class="col-md-5">
 								<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac enim scelerisque, congue nisi sit amet, posuere diam. Pellentesque fermentum purus in lorem lobortis laoreet. Donec maximus velit vel dapibus bibendum. Integer facilisis mauris facilisis ornare facilisis. Nunc ut ligula ut dolor porttitor consequat eget eu mi...” <span>Jamie Jones, Rancho Mirage, CA</span></blockquote>
 							</div><!-- col -->
 							<div class="col-md-6 offset-md-1 hidden-sm-down">
@@ -234,7 +202,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 							</div><!-- col -->
 						</div><!-- row -->
 					</div><!-- quote -->
-					
+
 				</div><!-- bx-review -->
 
 				<div class="row pt-4">
