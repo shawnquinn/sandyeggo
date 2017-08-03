@@ -60,7 +60,9 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
   <div class="contact-box">
     <div class="container">
       <div class="row">
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          
+        </div>
       </div>
     </div>
   </div>
