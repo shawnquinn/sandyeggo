@@ -10,6 +10,7 @@ Text Domain: usassoc
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
 
-@import "main"; 
-@import "bx-slider";
-@import "resp";
+@import 'main';
+@import 'sections';
+@import 'bx-slider';
+@import 'resp';

@@ -61,12 +61,54 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
     <div class="container">
       <div class="row">
         <div class="col-md-6">
+          <div class="row align-items-center added-bg">
+            <div class="col-md-4 spec"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+1-217-528-7541">(217) 528-7541</a></div>
+            <div class="col-md-4">
+              <?php // First let's check if any of this was set
 
-          
+                          echo '<ul class="social-icons">';
+                          if (!empty($lumos_options['facebook_uid'])) {
+                              echo '<li><a target="_blank" class="icon-facebook" href="' . $lumos_options['facebook_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['twitter_uid'])) {
+                              echo '<li><a target="_blank" class="icon-twitter" href="' . $lumos_options['twitter_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['google_plus_uid'])) {
+                              echo '<li><a target="_blank" class="icon-google-plus" href="' . $lumos_options['google_plus_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['youtube_uid'])) {
+                              echo '<li><a target="_blank" class="icon-youtube" href="' . $lumos_options['youtube_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['linkedin_uid'])) {
+                              echo '<li><a target="_blank" class="icon-linkedin" href="' . $lumos_options['linkedin_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['yelp_uid'])) {
+                              echo '<li><a target="_blank" class="icon-yelp" href="' . $lumos_options['yelp_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['blogger_uid'])) {
+                              echo '<li><a target="_blank" class="icon-blogger" href="' . $lumos_options['blogger_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['instagram_uid'])) {
+                              echo '<li><a target="_blank" class="icon-instagram" href="' . $lumos_options['instagram_uid'] . '">'.'</a></li>';
+                          }
+                          if (!empty($lumos_options['foursquare_uid'])) {
+                              echo '<li><a target="_blank" class="icon-foursquare" href="' . $lumos_options['foursquare_uid'] . '">'.'</a></li>';
+                          }
+
+                          echo '</ul><!-- end of .social-icons -->';
+                          ?>
+                        </div>
+            <div class="col-md-4 spec"> <a href="<?php echo home_url(''); ?>">Book Online <i class="fa fa-angle-right" aria-hidden="true"></i></a> </div>
+          </div>
+          <!-- row -->
         </div>
+        <!-- col -->
       </div>
+      <!-- row -->
     </div>
+    <!-- container -->
   </div>
+  <!-- contact-box -->
 
   <ul class="bx-slider">
     <li id="one">
