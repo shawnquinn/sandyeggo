@@ -271,55 +271,37 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 	</div><!-- .container -->
 </section><!-- section -->
 
-<section class="review">
+<section id="px-2" class="review">
 	<div class="container">
-		<div class="row text-center">
-			<div class="col-12">
-				<h2 class="featured-title">Testimonials <span>What Our Patients Are Saying</span></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box">
+          <h4>Patient review</h4>
+          <blockquote>
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus lacus, vehicula sed mauris id, auctor congue sapien. Phasellus rhoncus at lacus vel faucibus... ”
+          </blockquote>
+          <div class="author">
+            <span class="name">Jane Doe</span>
+            <span class="location">Rancho Mirage</span>
+          </div>
+        </div>
+      </div>
+      <!-- col -->
 
-				<div class="bx-review">
-					<div class="quote">
-						<div class="row align-items-center">
-							<div class="col-md-5">
-								<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac enim scelerisque, congue nisi sit amet, posuere diam. Pellentesque fermentum purus in lorem lobortis laoreet. Donec maximus velit vel dapibus bibendum. Integer facilisis mauris facilisis ornare facilisis. Nunc ut ligula ut dolor porttitor consequat eget eu mi...” <span>Jane Doe, Rancho Mirage, CA</span></blockquote>
-							</div><!-- col -->
-							<div class="col-md-6 offset-md-1 hidden-sm-down">
-								<img class="lime-border pb-5 img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/reviews/r1.jpg" alt="Testimonial" />
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- quote -->
-
-					<div class="quote">
-						<div class="row align-items-center">
-							<div class="col-md-5">
-								<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac enim scelerisque, congue nisi sit amet, posuere diam. Pellentesque fermentum purus in lorem lobortis laoreet. Donec maximus velit vel dapibus bibendum. Integer facilisis mauris facilisis ornare facilisis. Nunc ut ligula ut dolor porttitor consequat eget eu mi...” <span>Joanna Smith, Palm Desert, CA</span></blockquote>
-							</div><!-- col -->
-							<div class="col-md-6 offset-md-1 hidden-sm-down">
-								<img class="lime-border pb-5 img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/reviews/r2.jpg" alt="Testimonial" />
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- quote -->
-
-					<div class="quote">
-						<div class="row align-items-center">
-							<div class="col-md-5">
-								<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac enim scelerisque, congue nisi sit amet, posuere diam. Pellentesque fermentum purus in lorem lobortis laoreet. Donec maximus velit vel dapibus bibendum. Integer facilisis mauris facilisis ornare facilisis. Nunc ut ligula ut dolor porttitor consequat eget eu mi...” <span>Jamie Jones, Rancho Mirage, CA</span></blockquote>
-							</div><!-- col -->
-							<div class="col-md-6 offset-md-1 hidden-sm-down">
-								<img class="lime-border pb-5 img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/reviews/r3.jpg" alt="Testimonial" />
-							</div><!-- col -->
-						</div><!-- row -->
-					</div><!-- quote -->
-
-				</div><!-- bx-review -->
-
-				<div class="row pt-4">
-					<div class="col-md-5">
-						<button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url(''); ?>">Learn More</button>
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- col -->
-		</div><!-- row -->
+      <div class="col-md-6">
+        <div class="box">
+          <h4>Patient review</h4>
+          <blockquote>
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus lacus, vehicula sed mauris id, auctor congue sapien. Phasellus rhoncus at lacus vel faucibus... ”
+          </blockquote>
+          <div class="author">
+            <span class="name">Jane Doe</span>
+            <span class="location">Rancho Mirage</span>
+          </div>
+        </div>
+      </div>
+      <!-- col -->
+    </div>
 	</div><!-- .container -->
 </section><!-- section -->
 

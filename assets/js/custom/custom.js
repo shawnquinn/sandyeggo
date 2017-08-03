@@ -106,7 +106,7 @@ jQuery(function($) {
 		px('px1','section.services','#px-1');
 
 		//Parallax Section 2
-		//px('px2','section.lake','#px-2');
+		px('px2','section.review','#px-2');
 
 		//Parallax Section 3
 		//px('px3','section.dock','#px-3');
