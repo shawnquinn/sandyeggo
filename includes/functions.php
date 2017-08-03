@@ -43,7 +43,7 @@ function ctw_enqueue_scripts_and_styles() {
 		'google-fonts'			=> '//fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Quicksand:300,400',
 		'font-awesome'			=> get_template_directory_uri().'/css/font-awesome.min.css',
 		'slicknav'					=> get_template_directory_uri().'/css/slicknav.min.css',
-		'main-style-sheet'	=> get_template_directory_uri(),
+		'main-style-sheet'	=> get_template_directory_uri().'/style.min.css',
 		'bx-slider'					=> get_template_directory_uri().'/css/bx-slider.css',
 		'responsive'				=> get_template_directory_uri().'/css/resp.css'
 	);
@@ -63,8 +63,8 @@ function ctw_enqueue_scripts_and_styles() {
 		//'tweenMax'			=> 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js',
 		//'scrollMagic'		=> 'http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js',
 		//'AnimationGSAP' 	=> 'http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js',
-		'vendors'		 		=>	get_template_directory_uri().'/js/vendors.js',
-		'custom'		 		=>	get_template_directory_uri().'/js/custom.js',
+		'vendors'		 		=>	get_template_directory_uri().'/assets/js/vendors.js',
+		'custom'		 		=>	get_template_directory_uri().'/assets/js/custom.js'
 	);
 
 
