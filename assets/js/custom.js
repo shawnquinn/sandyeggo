@@ -1,18 +1,18 @@
 //Begin jQuery
 jQuery(function($) {
-		
+
 		/****************************************************************/
 		/*** //Init Headroom ***/
 		/****************************************************************/
-		
+
 		var $head = $("#header > div").height();
-		
+
 		$(".sticky-container").headroom({
 			// vertical offset in px before element is first unpinned
 			offset : $head,
-			tolerance : 10
+			tolerance : 1
 		});
-		
+
 		/****************************************************************/
 		/*** //Call Sticky Menu Waypoints ***/
 		/****************************************************************/
@@ -28,7 +28,7 @@ jQuery(function($) {
 		    const scroll = $(window).scrollTop();
 			const x = $(".sticky");
 
-		    if ( scroll >= 1 ) {
+		    if ( scroll >= 175 ) {
 		        $(x).addClass("scrolled");
 		    } else {
 		        $(x).removeClass("scrolled");
@@ -39,7 +39,7 @@ jQuery(function($) {
 		/****************************************************************/
 		/*** Mousover ***/
 		/****************************************************************/
-		// Slider Menu Homepage 		
+		// Slider Menu Homepage
 		$('.columned').hover(
 		    function() {
 		        // Called when the mouse enters the element
@@ -52,8 +52,8 @@ jQuery(function($) {
 						$(this).children('.procedure-menu').fadeOut(400);
 		    }
  		);
- 		
- 		
+
+
  		var $rM = $('#rancho, #rancho-box');
  		// Contact Footer
  		$rM.hover(
@@ -70,7 +70,7 @@ jQuery(function($) {
 				$("#rancho-box .box-title h4").removeClass("l-space");
 		    }
  		);
- 		
+
  		var $bH = $('#bevhills, #bev-box');
  		// Contact Footer
  		$bH.hover(
@@ -87,7 +87,7 @@ jQuery(function($) {
 				$("#bev-box .box-title h4").removeClass("l-space");
 		    }
  		);
- 		
+
 		/****************************************************************/
 		/*** ScrollMagic Init ***/
 		/****************************************************************/

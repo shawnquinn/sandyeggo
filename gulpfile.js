@@ -173,9 +173,9 @@ gulp.task( 'browser-sync', function() {
     .pipe( sourcemaps.init() )
     .pipe( sass( {
       errLogToConsole: true,
-      //outputStyle: 'compact',
+      outputStyle: 'compact',
       //outputStyle: 'compressed',
-       outputStyle: 'nested',
+      //outputStyle: 'nested',
       // outputStyle: 'expanded',
       precision: 10
     } ) )

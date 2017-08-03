@@ -44,9 +44,9 @@ function ctw_enqueue_scripts_and_styles() {
 		'font-awesome'			=> get_template_directory_uri().'/css/font-awesome.min.css',
 		'slicknav'					=> get_template_directory_uri().'/css/slicknav.min.css',
 		//'style-sheet'	=> get_template_directory_uri().'/style.min.css',
-		'dev-style-sheet'	=> get_template_directory_uri().'/style.css',
-		'bx-slider'					=> get_template_directory_uri().'/css/bx-slider.css',
-		'responsive'				=> get_template_directory_uri().'/css/resp.css'
+		'dev-style-sheet'	=> get_template_directory_uri().'/style.css'
+		//'bx-slider'					=> get_template_directory_uri().'/css/bx-slider.css',
+		//'responsive'				=> get_template_directory_uri().'/css/resp.css'
 	);
 
 	$ctw_registered_scripts = array(

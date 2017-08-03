@@ -37,9 +37,10 @@ $lumos_options = lumos_get_options();
 
 <header id="header">
   <div class="sticky-container sticky">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-lg-5 hidden-sm-down">
+				<div class="col-lg-12 hidden-sm-down">
+          <?php if(!is_frontpage) : ?>
 					<div id="logo" >
 				      <h1>
 				        <a href="<?php echo home_url('/'); ?>">
@@ -98,6 +99,10 @@ $lumos_options = lumos_get_options();
                             ?>
 						</div><!-- col -->
 					</div><!-- row -->
+
+        <?php endif; ?>
+
+
 					<div id="main-nav" class="row">
 						<div class="col-12 p-0">
 							<nav id="access">
