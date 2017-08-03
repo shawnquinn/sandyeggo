@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Rosario');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i|Open+Sans:300,300i,400,400i,600,600i|Playfair+Display:400i');
 
-$main-font: 'Montserrat', sans-serif;
-$secondary-font: 'Open Sans', sans-serif;
-$tertiary-font: 'Rosario', sans-serif;
+$font-main: 'Montserrat', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+$font-tertiary: 'Playfair Display', serif;
 
 $body-font-size: 18px;
 $nav-font-size: 16px;
@@ -12,19 +12,14 @@ $theme-secondary-color: rgba(20, 132, 153, 1);
 $theme-accent-color: rgba(249, 209, 29, 1);
 
 $white: rgba(255, 255, 255, 1);
+$dark-grey: #333;
 
-@charset "UTF-8";
-/*
-Theme Name: United Surgical Associates
-Theme URI: http://www.creativetakeweb.com
-Description: Theme produced by CreativeTake Medical
-Version: 1.0
-Author: CreativeTake Medical
-Author URI: http://www.creativetakeweb.com
-Text Domain: usassoc
-*/
-/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
--------------------------------------------------------------- */
+$xs: 575px;
+$sm: 767px;
+$md: 991px;
+$lg: 1199px;
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
     padding: 0;
@@ -203,7 +198,7 @@ a img {
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 
-    color: #7D8589;
+    color: $white;
 }
 
 .mobile-nav li a i {
@@ -211,7 +206,7 @@ a img {
 }
 
 .mobile-nav li a:hover {
-    color: #DDEBBD;
+    color: $theme-accent-color;
 }
 
 /*** Structures and Defaults
@@ -224,7 +219,7 @@ body {
     background-color: #fff;
     background-attachment: scroll;
 
-    font-family: $secondary-font;
+    font-family: $font-secondary;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -326,7 +321,7 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-transform: none;
     word-wrap: break-word;
 
-    font-family: $main-font;
+    font-family: $font-main;
     font-weight: 400;
 }
 
@@ -396,16 +391,17 @@ h6 {
 a {
     text-decoration: none;
 
-    color: #B6C988;
+    color: $theme-main-color;
 
     font-weight: normal;
-}
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
 
-a:hover, a:focus, a:active {
-    text-decoration: none;
-
-    color: #333;
-    outline: 0;
+        color: $theme-secondary-color;
+        outline: 0;
+    }
 }
 
 ::-moz-selection {
@@ -435,14 +431,13 @@ a.button:after {
     white-space: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
- /*     padding: 1rem 3rem; */
 
-    color: #7d8589;
-    border: 1px solid #7d8589;
+    color: $white;
+    border: 1px solid $theme-accent-color;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    background: transparent;
+    background: $theme-accent-color;
 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -452,10 +447,15 @@ a.button:after {
 .btn-primary:hover, a.btn-primary:hover, a.btn-primary:focus, .widget .wpcf7 input[type="submit"]:hover, #primary .wpcf7 input[type="submit"]:hover, .float-box .wpcf7 input[type="submit"]:hover {
     cursor: pointer;
 
-    color: #fff;
-    border: 1px solid #7d8589;
+    color: $white;
+    border: 1px solid $theme-main-color;
     outline: 0;
-    background: #7d8589 !important;
+    background: $theme-main-color !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 2px rgba($theme-secondary-color,.5);
+    box-shadow: 0 0 0 2px rgba($theme-secondary-color, 0.5);
 }
 
 .float-box .wpcf7 input[type="submit"] {
@@ -864,7 +864,7 @@ a.button:after {
     color: #ffffff;
     background: none;
 
-    font-family: $main-font;
+    font-family: $font-main;
     font-size: 16px;
     font-weight: 400;
     line-height: 50px;
@@ -1237,10 +1237,6 @@ a.button:after {
 
 .home #primary a {
     text-decoration: none;
-}
-
-.home #primary a.btn {
-    margin: 2rem 0;
 }
 
 #primary a {
@@ -2214,7 +2210,7 @@ header .social-icons li a:hover {
 
     color: #0C739E;
 
-    font-family: $main-font;
+    font-family: $font-main;
     font-size: 60px;
     line-height: 1;
 }
@@ -2945,7 +2941,7 @@ div.wpcf7-validation-errors {
 
     display: none;
 
-    font-family: $main-font;
+    font-family: $font-main;
 }
 
 .slider .boxed .columned {
@@ -2965,7 +2961,7 @@ div.wpcf7-validation-errors {
 }
 
 .slider .boxed h3, .slider .boxed h4 {
-    font-family: $main-font;
+    font-family: $font-main;
 }
 
 .slider .boxed h3 {
@@ -3018,7 +3014,7 @@ div.wpcf7-validation-errors {
 
     color: #7d8589;
 
-    font-family: $main-font;
+    font-family: $font-main;
     font-size: 18px;
 }
 

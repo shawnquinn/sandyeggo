@@ -61,10 +61,10 @@ function ctw_enqueue_scripts_and_styles() {
 		// 'headroom-main'		=>	get_template_directory_uri().'/js/headroom.min.js',
 		// 'headroom-jquery'	=>	get_template_directory_uri().'/js/jQuery.headroom.js',
 		// 'bx-sliderjs' 		=>	get_template_directory_uri().'/js/jquery.bxslider.min.js',
-		//'tweenMax'			=> 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js',
-		//'scrollMagic'		=> 'http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js',
-		//'AnimationGSAP' 	=> 'http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js',
 		'vendors'		 		=>	get_template_directory_uri().'/assets/js/vendors.js',
+		'tweenMax'			=> 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js',
+		'scrollMagic'		=> 'http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js',
+		'AnimationGSAP' => 'http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js',
 		'custom'		 		=>	get_template_directory_uri().'/assets/js/custom.js'
 	);
 

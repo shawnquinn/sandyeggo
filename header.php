@@ -39,7 +39,7 @@ $lumos_options = lumos_get_options();
   <div class="sticky-container sticky">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-lg-12 hidden-sm-down">
+				<div class="col-lg-12">
           <?php if(!is_frontpage) : ?>
 					<div id="logo" >
 				      <h1>

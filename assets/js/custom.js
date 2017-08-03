@@ -91,28 +91,29 @@ jQuery(function($) {
 		/****************************************************************/
 		/*** ScrollMagic Init ***/
 		/****************************************************************/
-		//const controller = new ScrollMagic.Controller({ globalSceneOptions : { triggerHook: "onEnter", duration: "200%"}});
+
+		const controller = new ScrollMagic.Controller({ globalSceneOptions : { triggerHook: "onEnter", duration: "200%"}});
 
 		/*** PX-1 *** --------------------------- */
 
-/*
+
 		function px($name, $section, $id) {
 			$name = TweenMax.to($section, 1, { css: { backgroundPosition: 'center 100%' }, ease: Linear.easeNone });
 			new ScrollMagic.Scene( { triggerElement: $id} ).setTween($name).addTo(controller);
 		}
 
 		//Parallax Section 1
-		px('px1','section.review','#px-1');
+		px('px1','section.services','#px-1');
 
 		//Parallax Section 2
-		px('px2','section.lake','#px-2');
+		//px('px2','section.lake','#px-2');
 
 		//Parallax Section 3
-		px('px3','section.dock','#px-3');
+		//px('px3','section.dock','#px-3');
 
 		//Parallax Section 3
-		px('px4','section.lake-master','#px-4');
-*/
+		//px('px4','section.lake-master','#px-4');
+
 
 
 		/****************************************************************/

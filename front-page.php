@@ -60,8 +60,8 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
   <div class="contact-box">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="row align-items-center added-bg">
+        <div class="col-md-12 col-lg-9 col-xl-8">
+          <div class="row align-items-center added-bg text-center">
             <div class="col-md-4 spec"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+1-217-528-7541">(217) 528-7541</a></div>
             <div class="col-md-4">
               <?php // First let's check if any of this was set
@@ -157,61 +157,119 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 </section>
 <!-- section.home-content -->
 
+<section id="px-1" class="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <div class="box">
+          <a href="<?php echo home_url('//'); ?>">
+            <h4>Laparoscopic <br />Surgery</h4>
+          </a>
+          <div class="hover-arrow">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-angle-right fa-stack-1x"></i>
+            </span>
+          </div>
+          <!-- hover arrow -->
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="box">
+          <a href="<?php echo home_url('//'); ?>">
+            <h4>Colon/Rectal <br />Surgery</h4>
+          </a>
+          <div class="hover-arrow">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-angle-right fa-stack-1x"></i>
+            </span>
+          </div>
+          <!-- hover arrow -->
+      </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="box">
+          <a href="<?php echo home_url('//'); ?>">
+            <h4>General <br />Surgery</h4>
+          </a>
+          <div class="hover-arrow">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-angle-right fa-stack-1x"></i>
+            </span>
+          </div>
+          <!-- hover arrow -->
+      </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="box">
+          <a href="<?php echo home_url('//'); ?>">
+            <h4>Breast<br />Surgery</h4>
+          </a>
+          <div class="hover-arrow">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-angle-right fa-stack-1x"></i>
+            </span>
+          </div>
+          <!-- hover arrow -->
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="meet">
 	<div class="container">
 
-		<div class="row align-items-center">
-			<div class="col-lg-5">
-				<img class="lime-border pb-5 img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/dr-q.jpg" alt="Dr. Q Plastic Surgery" />
-			</div><!-- col -->
-
-			<div class="col-lg-6 offset-lg-1">
-				<h1 class="featured-title">Meet Dr Q <span>Suzanne M. Quardt, M.D.</span></h1>
-				<p>Dr Q ™ performs all aspects of Plastic Surgery including cosmetic surgery of the face and body, as well as challenging cases including reconstructions after breast, skin and other cancers, trauma, and other medical conditions.  Dr Q has a beautiful, state-of-the-art Cosmetic Surgery Center that also hosts her own Dr Q Medical Spa where she offers the latest and greatest in Non-Surgical technologies for procedures such as skin-tightening, fat-reduction, advanced skin-care including Hydrafacials, medical peels, laser resurfacing, sublative radiofrequency technology, microneedling and only the best, most effective and advanced Cosmeceutical skin-care lines.  Your treatments are performed in a luxuriously comfortable and serene, spa setting!  Her practice has expanded so rapidly that she is now happy to announce a new location with a private, accredited surgery center in Beverly Hills, California as well, to help serve her many patients that travel quite far to see her!</p>
-				<div class="row">
-				<div class="col-xl-6">
-				<button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url('/meet-dr-quardt/'); ?>">Learn More</button>
-				</div>
-				</div>
-			</div><!-- col -->
-		</div><!-- row -->
-
-	</div><!-- .container -->
-</section><!-- section -->
-
-<section class="call-to-actions">
-	<div class="container">
 		<div class="row">
-			<div class="cta col-sm-4">
-				<a href="<?php echo home_url('/photo-gallery/'); ?>">
-					<div class="box">
-						<h4>Photo Gallery</h4>
-						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-1.jpg" alt="Photo Gallery" />
-					</div>
-				</a>
+			<div class="col-12">
+        <h1 class="featured-title text-center">Meet Our Team <span>Experience. Excellence. Commitment.</span></h1>
 			</div><!-- col -->
+    </div>
+    <!-- row -->
 
-			<div class="cta col-sm-4">
-				<a href="<?php echo home_url('/specials/'); ?>">
-					<div class="box">
-						<h4>Current Specials</h4>
-						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-2.jpg" alt="Current Specials" />
-					</div>
-				</a>
-			</div><!-- col -->
+      <div class="row py-5 align-items-center">
+			      <div class="col-sm-6">
+      				<div class="row">
+      				  <div class="col-lg-4 mb-4">
+      				        <img class="img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/doc-fpo.jpg" alt="Dr. Name" />
+      				  </div>
 
-			<div class="cta col-sm-4">
-				<a href="<?php echo home_url('/video-gallery/'); ?>">
-					<div class="box">
-						<h4>Video Gallery</h4>
-						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-3.jpg" alt="Video Gallery" />
-					</div>
-				</a>
-			</div><!-- col -->
-		</div><!-- row -->
+      				  <div class="col-lg-8">
+                  <h4 class="text-center text-lg-left">Name of Doctor <span>Doc's Title</span></h1>
+          				<p>Phasellus vel auctor odio, vitae aliquam massa. Suspendisse vestibulum varius ligula, quis hendrerit dolor auctor a. Integer vel lobortis sem, at condimentum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis tempor pretium.</p>
+          				<div class="row">
+            				<div class="col-xl-9">
+            				      <button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url('/meet-dr-quardt/'); ?>">Learn More</button>
+            				</div>
+          				</div>
+      				  </div>
+      				</div>
+      			</div><!-- col -->
+
+            <div class="col-sm-6">
+              <div class="row">
+                <div class="col-lg-4 mb-4">
+                      <img class="img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/doc-fpo.jpg" alt="Dr. Name" />
+                </div>
+
+                <div class="col-lg-8">
+                  <h4 class="text-center text-lg-left">Name of Doctor <span>Doc's Title</span></h1>
+                  <p>Phasellus vel auctor odio, vitae aliquam massa. Suspendisse vestibulum varius ligula, quis hendrerit dolor auctor a. Integer vel lobortis sem, at condimentum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis tempor pretium.</p>
+                  <div class="row">
+                    <div class="col-xl-9">
+                          <button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url('/meet-dr-quardt/'); ?>">Learn More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- col -->
+		  </div><!-- row -->
+
 	</div><!-- .container -->
 </section><!-- section -->
-
 
 <section class="review">
 	<div class="container">
@@ -260,6 +318,39 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 						<button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url(''); ?>">Learn More</button>
 					</div><!-- col -->
 				</div><!-- row -->
+			</div><!-- col -->
+		</div><!-- row -->
+	</div><!-- .container -->
+</section><!-- section -->
+
+<section class="call-to-actions">
+	<div class="container">
+		<div class="row">
+			<div class="cta col-sm-4">
+				<a href="<?php echo home_url('/photo-gallery/'); ?>">
+					<div class="box">
+						<h4>Photo Gallery</h4>
+						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-1.jpg" alt="Photo Gallery" />
+					</div>
+				</a>
+			</div><!-- col -->
+
+			<div class="cta col-sm-4">
+				<a href="<?php echo home_url('//'); ?>">
+					<div class="box">
+						<h4>Current Specials</h4>
+						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-2.jpg" alt="Current Specials" />
+					</div>
+				</a>
+			</div><!-- col -->
+
+			<div class="cta col-sm-4">
+				<a href="<?php echo home_url('/video-gallery/'); ?>">
+					<div class="box">
+						<h4>Video Gallery</h4>
+						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-3.jpg" alt="Video Gallery" />
+					</div>
+				</a>
 			</div><!-- col -->
 		</div><!-- row -->
 	</div><!-- .container -->

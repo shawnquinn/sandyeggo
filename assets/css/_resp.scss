@@ -228,7 +228,7 @@
 	}
 
 	.slicknav_menu .slicknav_icon-bar {
-	    background-color: #7D8589;
+	    background-color: $white;
 	}
 
 	.slicknav_nav {
@@ -280,7 +280,7 @@
 	}
 
 	ul.slicknav_nav {
-		background: #333;
+		background: $white;
 		text-align: left;
 		margin-top: 50px;
 	}
@@ -299,13 +299,17 @@
 		padding: 10px;
 	}
 
+	.slicknav_nav a {
+		color: $theme-main-color;
+	}
+
 	.slicknav_nav .slicknav_row:hover,
 	.slicknav_nav a:hover {
 	    border-radius: 			0;
 	    -moz-border-radius: 	0;
 	    -webkit-border-radius: 	0;
-	    background: #ccc;
-	    color: #fff;
+	    background: $theme-accent-color;
+	    color: $white;
 	}
 	/* 	End Slick Nav Support */
 
