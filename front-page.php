@@ -242,7 +242,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
           				<p>Phasellus vel auctor odio, vitae aliquam massa. Suspendisse vestibulum varius ligula, quis hendrerit dolor auctor a. Integer vel lobortis sem, at condimentum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis tempor pretium.</p>
           				<div class="row">
             				<div class="col-xl-9">
-            				      <button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url('/meet-dr-quardt/'); ?>">Learn More</button>
+            				      <button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url('//'); ?>">Learn More</button>
             				</div>
           				</div>
       				  </div>
@@ -260,7 +260,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
                   <p>Phasellus vel auctor odio, vitae aliquam massa. Suspendisse vestibulum varius ligula, quis hendrerit dolor auctor a. Integer vel lobortis sem, at condimentum dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis tempor pretium.</p>
                   <div class="row">
                     <div class="col-xl-9">
-                          <button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url('/meet-dr-quardt/'); ?>">Learn More</button>
+                          <button class="btn btn-lg btn-primary btn-block" href="<?php echo home_url('//'); ?>">Learn More</button>
                     </div>
                   </div>
                 </div>
@@ -284,6 +284,15 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
             <span class="name">Jane Doe</span>
             <span class="location">Rancho Mirage</span>
           </div>
+          <a href="<?php echo home_url('//') ?>">
+            <div class="hover-arrow">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-angle-right fa-stack-1x"></i>
+              </span>
+            </div>
+          </a>
+          <!-- hover arrow -->
         </div>
       </div>
       <!-- col -->
@@ -298,6 +307,15 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
             <span class="name">Jane Doe</span>
             <span class="location">Rancho Mirage</span>
           </div>
+          <a href="<?php echo home_url('//') ?>">
+            <div class="hover-arrow">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-angle-right fa-stack-1x"></i>
+              </span>
+            </div>
+          </a>
+          <!-- hover arrow -->
         </div>
       </div>
       <!-- col -->
@@ -311,8 +329,11 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 			<div class="cta col-sm-4">
 				<a href="<?php echo home_url('/photo-gallery/'); ?>">
 					<div class="box">
-						<h4>Photo Gallery</h4>
-						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-1.jpg" alt="Photo Gallery" />
+						<h4>Patient Reviews</h4>
+            <div class="callout">
+              <p>Get patient information and download forms</p>
+            </div>
+						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-1.jpg" alt="Patient Reviews" />
 					</div>
 				</a>
 			</div><!-- col -->
@@ -320,8 +341,11 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 			<div class="cta col-sm-4">
 				<a href="<?php echo home_url('//'); ?>">
 					<div class="box">
-						<h4>Current Specials</h4>
-						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-2.jpg" alt="Current Specials" />
+						<h4>Patient Forms</h4>
+            <div class="callout">
+              <p>Read what our patients are saying about us</p>
+            </div>
+						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-2.jpg" alt="Patient Forms" />
 					</div>
 				</a>
 			</div><!-- col -->
@@ -329,8 +353,9 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 			<div class="cta col-sm-4">
 				<a href="<?php echo home_url('/video-gallery/'); ?>">
 					<div class="box">
-						<h4>Video Gallery</h4>
-						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-3.jpg" alt="Video Gallery" />
+						<h4>Schedule <br/> Consult</h4>
+            <p>Contact us now to schedule your next appointment</p>
+						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-3.jpg" alt="Schedule Consult" />
 					</div>
 				</a>
 			</div><!-- col -->

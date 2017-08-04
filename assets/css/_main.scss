@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i|Open+Sans:300,300i,400,400i,600,600i|Playfair+Display:400i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i|Open+Sans:300,300i,400,400i,600,600i|Playfair+Display:400i|IM+Fell+French+Canon:400,400i');
 
-$font-main: 'Montserrat', sans-serif;
+$font-primary: 'Montserrat', sans-serif;
 $font-secondary: 'Open Sans', sans-serif;
 $font-tertiary: 'Playfair Display', serif;
+$font-quaternary: 'IM Fell French Canon', serif;
 
 $body-font-size: 18px;
 $nav-font-size: 16px;
@@ -321,7 +322,7 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-transform: none;
     word-wrap: break-word;
 
-    font-family: $font-main;
+    font-family: $font-primary;
     font-weight: 400;
 }
 
@@ -864,7 +865,7 @@ a.button:after {
     color: #ffffff;
     background: none;
 
-    font-family: $font-main;
+    font-family: $font-primary;
     font-size: 16px;
     font-weight: 400;
     line-height: 50px;
@@ -2210,7 +2211,7 @@ header .social-icons li a:hover {
 
     color: #0C739E;
 
-    font-family: $font-main;
+    font-family: $font-primary;
     font-size: 60px;
     line-height: 1;
 }
@@ -2941,7 +2942,7 @@ div.wpcf7-validation-errors {
 
     display: none;
 
-    font-family: $font-main;
+    font-family: $font-primary;
 }
 
 .slider .boxed .columned {
@@ -2961,7 +2962,7 @@ div.wpcf7-validation-errors {
 }
 
 .slider .boxed h3, .slider .boxed h4 {
-    font-family: $font-main;
+    font-family: $font-primary;
 }
 
 .slider .boxed h3 {
@@ -3014,7 +3015,7 @@ div.wpcf7-validation-errors {
 
     color: #7d8589;
 
-    font-family: $font-main;
+    font-family: $font-primary;
     font-size: 18px;
 }
 
