@@ -443,10 +443,12 @@ section.call-to-actions .cta a{top:0;box-shadow:0 0 0 0 rgba(90,91,95,0)}
 section.call-to-actions .cta,section.call-to-actions .cta a,section.call-to-actions .cta a h4,section.call-to-actions .cta a img{-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 section.call-to-actions .cta a,section.call-to-actions .cta a .box{position:relative;display:block;overflow:hidden;width:100%;height:100%}
 section.call-to-actions .cta a .box .callout{background:rgba(255,255,255,0.7);position:absolute;z-index:5;bottom:0;width:100%}
-section.call-to-actions .cta a .box .callout p{font-family:"Open Sans",sans-serif;position:relative;margin:0;padding:0;color:#333;font-size:20px;line-height:1.3;padding:.25rem .5rem}
+section.call-to-actions .cta a .box .callout p{font-family:"Open Sans",sans-serif;position:relative;margin:0;padding:0;color:#333;font-size:20px;line-height:1.3;padding:0 .5rem}
+section.call-to-actions .cta a .box .callout .hover-arrow{padding:.33rem;background:#f9d11d}
+section.call-to-actions .cta a .box .callout .hover-arrow .fa-stack i:first-child{color:white}
+section.call-to-actions .cta a .box .callout .hover-arrow .fa-stack i:last-child{color:#f9d11d}
 section.call-to-actions .cta a:hover{box-shadow:0 16px 22px 0 rgba(90,91,95,0.3)}
-section.call-to-actions .cta a .box h4{position:absolute;z-index:3;top:3rem;width:100%;margin:0;padding:0;text-align:center;letter-spacing:3px;color:white;font-size:22px}
-section.call-to-actions .cta a:hover .box h4{letter-spacing:5px;background:white}
+section.call-to-actions .cta a .box h4{position:absolute;font-weight:300;z-index:3;top:1rem;left:1rem;width:100%;margin:0;padding:0;text-align:left;letter-spacing:0;color:#1d2a4b;font-size:30px}
 section.call-to-actions .cta a .box img{position:relative}
 section.call-to-actions .cta a:hover .box img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
 section.review{position:relative;padding:12rem 0;background:#fff url("img/bg-review.jpg") no-repeat center center}

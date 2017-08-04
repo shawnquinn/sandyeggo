@@ -329,9 +329,15 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 			<div class="cta col-sm-4">
 				<a href="<?php echo home_url('/photo-gallery/'); ?>">
 					<div class="box">
-						<h4>Patient Reviews</h4>
-            <div class="callout">
+						<h4>Patient <br/>Reviews</h4>
+            <div class="callout d-flex align-items-center">
               <p>Get patient information and download forms</p>
+              <div class="hover-arrow">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                  <i class="fa fa-angle-right fa-stack-1x"></i>
+                </span>
+              </div>
             </div>
 						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-1.jpg" alt="Patient Reviews" />
 					</div>
@@ -341,9 +347,15 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 			<div class="cta col-sm-4">
 				<a href="<?php echo home_url('//'); ?>">
 					<div class="box">
-						<h4>Patient Forms</h4>
-            <div class="callout">
+						<h4>Patient <br/>Forms</h4>
+            <div class="callout d-flex align-items-center">
               <p>Read what our patients are saying about us</p>
+              <div class="hover-arrow">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                  <i class="fa fa-angle-right fa-stack-1x"></i>
+                </span>
+              </div>
             </div>
 						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-2.jpg" alt="Patient Forms" />
 					</div>
@@ -354,7 +366,15 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 				<a href="<?php echo home_url('/video-gallery/'); ?>">
 					<div class="box">
 						<h4>Schedule <br/> Consult</h4>
-            <p>Contact us now to schedule your next appointment</p>
+            <div class="callout d-flex align-items-center">
+              <p>Contact us now to schedule your next appointment</p>
+              <div class="hover-arrow">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                  <i class="fa fa-angle-right fa-stack-1x"></i>
+                </span>
+              </div>
+            </div>
 						<img class="w-100 d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/img/ctas/cta-3.jpg" alt="Schedule Consult" />
 					</div>
 				</a>
