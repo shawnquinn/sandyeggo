@@ -30,7 +30,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 <section class="slider">
 
   <div class="boxed">
-    <div class="container hidden-md-down">
+    <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5">
           <div id="logo" >
@@ -274,7 +274,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
 <section id="px-2" class="review">
 	<div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 my-4">
         <div class="box">
           <h4>Patient review</h4>
           <blockquote>
@@ -297,7 +297,7 @@ $empty = ( empty( $lumos_options['home_headline'] ) && empty( $lumos_options['ho
       </div>
       <!-- col -->
 
-      <div class="col-md-6">
+      <div class="col-md-6 my-4">
         <div class="box">
           <h4>Patient review</h4>
           <blockquote>

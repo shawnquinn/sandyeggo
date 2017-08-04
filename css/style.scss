@@ -464,7 +464,7 @@ h6 {
 ****************************************************************/
 
 a {
-    color: #B6C988;
+    color: $theme-accent-color;
     font-weight: normal;
     text-decoration: none;
 }
@@ -558,9 +558,9 @@ a.btn-secondary:focus,
 
 .slider .btn,
 .slider a.btn {
-    background: #B6C988;
+    background: $theme-accent-color;
     color: #fff;
-    border: 2px solid #B6C988;
+    border: 2px solid $theme-accent-color;
     font-weight: 400;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -573,8 +573,8 @@ a.btn-secondary:focus,
 .slider a.btn:active:focus,
 .slider a.btn:active {
     background: transparent !important;
-    color: #B6C988;
-    border: 2px solid #B6C988;
+    color: $theme-accent-color;
+    border: 2px solid $theme-accent-color;
 }
 
 .widget .wpcf7 input[type="submit"] {
@@ -584,7 +584,7 @@ a.btn-secondary:focus,
 }
 
 .float-box {
-    background: #B6C988;
+    background: $theme-accent-color;
     position: fixed;
     z-index: 99999;
     box-sizing: border-box;
@@ -2302,7 +2302,7 @@ h3.widget-title {
 .bottom a:hover,
 #footer-nav li a:hover,
 .footer-copyright a:hover {
-    color: #B6C988;
+    color: $theme-accent-color;
 }
 
 #footer-nav li a:hover {
@@ -2412,9 +2412,9 @@ header .social-icons li a {
 }
 
 header .social-icons li a:hover {
-    background: #b6c988;
+    background: $theme-accent-color;
     color: #fff;
-border: 1px solid #b6c988;
+border: 1px solid $theme-accent-color;
 }
 
 .contact .social-icons li a {
@@ -2496,9 +2496,9 @@ border: 1px solid #b6c988;
 }
 
 #footer-info .social-icons a {
-    background: #b6c988;
+    background: $theme-accent-color;
     color: #fff;
-    border: 1px solid #b6c988;
+    border: 1px solid $theme-accent-color;
     padding: 9px;
     margin: 0;
     font-size: 18px;
@@ -2512,8 +2512,8 @@ border: 1px solid #b6c988;
 
 #footer-info .social-icons a:hover {
     background: #fff;
-    color: #b6c988;
-    border: 1px solid #b6c988;
+    color: $theme-accent-color;
+    border: 1px solid $theme-accent-color;
 }
 
 #footer-info .icon-yelp,
@@ -3343,7 +3343,7 @@ div.wpcf7-validation-errors {
   position: relative;
   width: 30px;
   margin: 1rem auto;
-  background: #b6c988;
+  background: $theme-accent-color;
   height: 1px;
 }
 
@@ -3359,7 +3359,7 @@ div.wpcf7-validation-errors {
 }
 
 .procedure-menu .featured-menu a:hover {
-  color: #b6c988;
+  color: $theme-accent-color;
 }
 
 

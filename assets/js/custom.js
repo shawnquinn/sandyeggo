@@ -109,7 +109,7 @@ jQuery(function($) {
 		px('px2','section.review','#px-2');
 
 		//Parallax Section 3
-		//px('px3','section.dock','#px-3');
+		px('px3','section.contact','#px-3');
 
 		//Parallax Section 3
 		//px('px4','section.lake-master','#px-4');

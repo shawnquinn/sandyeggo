@@ -54,10 +54,6 @@
 		font-size: 14px;
 	}
 
-	section.contact .contact-info h3 {
-		font-size: 42px;
-	}
-
 	section.contact .contact-info p,
 	section.contact .contact-info p a {
 		font-size: 20px;
@@ -478,11 +474,6 @@
 		text-align: center;
 	}
 
-	#footer-info .social-icons li {
-		width: auto;
-		margin: 0.25rem;
-	}
-
 	.home #primary h2 span {
 		display: inline-block;
 	}
@@ -689,15 +680,7 @@
 
 
 /* Below 600 Mobile App Breakpoint */
-@media only screen and (max-width : 600px) {
-
-	.home .slider {
-		padding: 15rem 0;
-	}
-
-	h1.knockout-text-one {
-		font-size: 28px;
-	}
+@media only screen and (max-width : 600px) {s
 
 	.bg-container {
 		height: auto;
@@ -766,7 +749,7 @@
 	}
 
 	.home .slider, .bx-slider, .bx-slider li, .bx-wrapper {
-	    height: 350px;
+	    height:400px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {

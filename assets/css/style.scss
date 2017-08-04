@@ -9,6 +9,7 @@ Text Domain: usassoc
 */
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+@import 'mixins';
 
 @import 'main';
 @import 'sections';
